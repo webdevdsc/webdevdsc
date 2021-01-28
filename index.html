@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Online Food Delivery Service in India | MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+   <style>
+       .darkmode
+       {
+        background-color: black !important;
+        color: white !important; 
+       }
+   </style>
+   <script> 
+        function darkmode() 
+        {
+    var element2= document.getElementById("ser-box1");
+    element2.classList.toggle("darkmode");
+    var element3= document.getElementById("ser-box2");
+    element3.classList.toggle("darkmode");
+    var element4= document.getElementById("ser-box3");
+    element4.classList.toggle("darkmode");
+    var element = document.getElementById("services-container");
+    element.classList.toggle("darkmode");
+   }
+    </script> 
+</head>
+
+<body>
+    <nav>
+        <div id="logo">
+            <h1>Company Name</h1>
+        </div>
+    <div id="navbar">
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+    </nav>
+    <header id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dolorum numquam minus. </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+        <button class="btn">Learn More</button>
+    </header>
+
+    <section id="services-container">
+        <div id="head">
+            <h1 class="h-primary center">Our Services</h1>
+            <button class="btn" type="button" onclick="darkmode();">Dark Mode</button>
+        </div>
+        <div id="services">
+            <div class="box" id="ser-box1">
+                <img src="img/1.jpg" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque recusandae doloribus suscipit odio voluptatum praesentium temporibus numquam quibusdam rerum deleniti.</p>
+                <button class="btn">See Profile</button>
+            </div>
+            <div class="box" id="ser-box2">
+                <img src="img/2.jpg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In rerum maiores repellat accusantium. Quas quae beatae unde odit ratione quos ut distinctio deleniti esse, sapiente tempore quasi atque. Sit, reprehenderit!</p>
+                <button class="btn">See Profile</button>
+            </div>
+            <div class="box" id="ser-box3">
+                <img src="img/3.jpg" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo quos eligendi iste repellendus beatae et similique nesciunt, perferendis autem laboriosam dicta, placeat pariatur odit, corrupti fugiat? Veritatis, sequi quo!</p>
+                <button class="btn">See Profile</button>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <h1 class="h-secondary">Get in touch with us today!</h1>
+            <br>
+            <button class="btn">Contact us</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineMeal.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
