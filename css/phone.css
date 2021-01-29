@@ -2,7 +2,10 @@
 nav {
     flex-direction: column;
 }
-
+nav::before
+{
+ height: 150px;
+}
 #logo h1
 {
  font-size: 1rem;
@@ -14,14 +17,17 @@ nav {
 }
 /* Home section */
 #home{
-    height: 370px; 
+    height: 553px; 
     padding: 3px 28px;
 }
 
 #home::before{
-    height: 480px; 
+    height: 649px; 
 }
-
+#home h1
+{
+ font-size: 3.8rem;
+}
 #home p{
     font-size: 13px;
 }
@@ -38,12 +44,15 @@ nav {
     margin-bottom: 20px;
     width: 100%;
 }
+#services .box img{ 
+    width: 60%;
+}
 /* Contact us section */
 
 /* Footer */
 
 /* Utility classes */
-.h-primary{
+.bold{
     font-size:26px;
 }
 .btn{
