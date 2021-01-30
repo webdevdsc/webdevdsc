@@ -94,7 +94,7 @@ nav::before{
     width: 100%;
     z-index: -1;
     /* opacity:0.89; */
-    opacity: 0.75;
+    opacity: 0.85;
 }
 
 #home h1{
