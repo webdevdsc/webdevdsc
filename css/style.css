@@ -27,11 +27,11 @@ nav::before{
     opacity: 0.7;
 }
 /* Navigation Bar */
-#navbar{
+/* #navbar{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-}
+} */
 
 
 /* Navigation Bar: Logo and Image */
@@ -112,7 +112,7 @@ nav::before{
     font-family: 'Bree Serif', serif;
 }
 /* Services Section */
-#services-container #head
+#services-box #head
 {
     display: flex;
     justify-content: center;
@@ -148,6 +148,7 @@ nav::before{
 #services .box p{
     font-family: 'Bree Serif', serif;
     flex-grow: 1;
+    font-size: 1rem;
 } 
 #services .btn
 {
@@ -173,31 +174,35 @@ background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Fi
 }
 #contact-box{
     font-family: 'Bree Serif', serif;
-    color:white;
+    color:black;
 }
-
+#contact-box p
+{
+ font-size:1.5em;
+ color: black;
+}
 footer{
     background: black;
     color: white;
-    padding: 9px 20px;
+    padding: 15px 20px;
 }
 
 /* Basic Classes */
 .bold{
     font-family: 'Bree Serif', serif;
-    font-size: 3.8rem;
+    font-size: 3rem;
     padding: 12px;
 }
 
 .light{
     font-family: 'Bree Serif', serif;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     padding: 12px;
 }
 
 .btn{
     padding: 6px 20px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     background-color: brown;
     color: white;
     margin: 17px;
