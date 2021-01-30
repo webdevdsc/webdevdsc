@@ -87,7 +87,7 @@ nav::before{
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('../bg1.jpg') no-repeat center center/cover;
+    background: url('../bg2.jpg') no-repeat center center/cover;
     height: 695px;
     top:0px;
     left:0px;
@@ -102,6 +102,7 @@ nav::before{
     color: black;
     text-align: center;
     font-family: 'Bree Serif', serif;
+    margin-bottom: 30px;
 }
 
 #home p{
